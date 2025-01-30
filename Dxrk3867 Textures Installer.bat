@@ -12,8 +12,8 @@ set /p choice=Choose an option [1, 2, 3]:
 
 set DEST_FOLDER=%USERPROFILE%\AppData\Local\Bloxstrap\Versions\version-080ad6451df24461\PlatformContent\pc
 
-set GRAY_TEXTURES_URL=https://github.com/Dxrk38677/Rivals/raw/main/Gray%20Textures.zip
-set DARK_TEXTURES_URL=https://github.com/Dxrk38677/Rivals/raw/main/super%20dark%20textures.zip
+set GRAY_TEXTURES_URL=https://github.com/Dxrk38677/Rivals-Textures/raw/refs/heads/main/Gray%20Textures.zip
+set DARK_TEXTURES_URL=https://github.com/Dxrk38677/Rivals-Textures/raw/refs/heads/main/Dark%20Textures.zip
 
 if "%choice%"=="1" (
     set ZIP_URL=%GRAY_TEXTURES_URL%
