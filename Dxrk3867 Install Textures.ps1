@@ -9,8 +9,8 @@ $choice = Read-Host "Choose an option [1, 2, 3]"
 
 $DEST_FOLDER = [System.IO.Path]::Combine($env:USERPROFILE, "AppData\Local\Bloxstrap\Versions\version-080ad6451df24461\PlatformContent\pc")
 
-$GRAY_TEXTURES_URL = "https://github.com/Dxrk38677/Rivals/raw/main/Gray%20Textures.zip"
-$DARK_TEXTURES_URL = "https://github.com/Dxrk38677/Rivals/raw/main/super%20dark%20textures.zip"
+$GRAY_TEXTURES_URL = "https://github.com/Dxrk38677/Rivals-Textures/raw/refs/heads/main/Gray%20Textures.zip"
+$DARK_TEXTURES_URL = "https://github.com/Dxrk38677/Rivals-Textures/raw/refs/heads/main/Dark%20Textures.zip"
 
 if ($choice -eq "1") {
     $RAR_URL = $GRAY_TEXTURES_URL
